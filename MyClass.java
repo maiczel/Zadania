@@ -2,9 +2,8 @@ public class MyClass {
     int number;
     String text;
 
-    public MyClass(){
-        number = 30;
-        text = "1A";
+    public MyClass(int number, String text){
+        this.number = number;
+        this.text = text;
     }
-
 }

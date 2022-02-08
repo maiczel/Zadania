@@ -1,18 +1,19 @@
 public class Main {
     public static void main(String[] args) {
 
-        /* ĆWICZENIE 0, VERSION2.
-        Stwórz klasę MyClass, która ma dwa Pola:
-        -liczbowe (int) o nazwie number
-        - tekstowe (String) o nazwie text
-         w metodzie main() stwórz dwa obiekty typu MyClass
-         Uzupełnij wszystkie pola wartościami
-         wypisz wartości pól za pomoca metody:*/
+        /* CWICZENIE 1A
+        Stwórz klasę Engine, która ma pola typu
+        Integer (nazwy: power, capacity)
+        - w metodzie main() stwórz dwa obiekty typu
+        Engine,
+        -uzupełnij wszystkie pola wartościami
+        wypisz wynik za pomoca metody sout*/
 
-        MyClass myClass1 = new MyClass(30, "Klasa 1A");
-        MyClass myclass2 = new MyClass(32, "Klasa 1B");
+        Engine engine1 = new Engine(100, 1500);
+        Engine engine2 = new Engine(150, 2200);
+        System.out.println("power " + engine1.power + " " + engine1.capacity );
+        System.out.println("power " + engine1.power + " " + engine1.capacity );
 
-        System.out.println(myClass1.number + " " + myClass1.text);
-        System.out.println(myclass2.number + " " + myclass2.text);
+
     }
 }
